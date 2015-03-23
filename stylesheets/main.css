@@ -5622,6 +5622,22 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+@font-face {
+  font-family: Handlee-Regular;
+  src: url(../tipografia/Handlee-Regular.ttf); }
+.navbar {
+  margin-bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  border-radius: 0; }
+
+.logo img {
+  width: 15%; }
+
+.carousel {
+  z-index: 9; }
+
 .row {
   margin-top: 20px;
   margin-bottom: 20px; }
@@ -5639,5 +5655,23 @@ button.close {
   float: left;
   width: 20%;
   padding: 0 1%; }
+
+h3 {
+  font-family: "Handlee-Regular";
+  color: #d7143e;
+  text-align: center; }
+
+p {
+  font-family: "Handlee-Regular";
+  color: grey;
+  text-align: center;
+  font-size: 17px; }
+
+.carousel-control .glyphicon-menu-right, .carousel-control .glyphicon-menu-left {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */
