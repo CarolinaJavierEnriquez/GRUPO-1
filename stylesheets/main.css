@@ -5622,5 +5622,7 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.row {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */
