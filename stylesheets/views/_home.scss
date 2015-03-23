@@ -62,3 +62,15 @@ p{
 	  display: inline-block;
 	}
 }
+
+.display {
+  position: relative;
+  width: 100%; }
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  min-height: 100%; }
+  .overlay:hover {
+    background-color: rgba(161, 179, 67, 0.5); }
