@@ -27,18 +27,7 @@
 	margin-top:20px;
 }
 
-.footer{
-	width: 100%;
-	background-color: grey;
-	color: #CACACA;
-	margin-top:5%;
-}
 
-.redes-footer img{
-	float: left;
-	width: 20%;
-	padding: 0 1%;
-}
 
 h3{
 	font-family:"Handlee-Regular";
@@ -46,7 +35,7 @@ h3{
 	text-align: center;
 }
 
-p{
+.container p{
 	font-family:"Handlee-Regular";
 	color: grey;
 	text-align:center;
@@ -77,14 +66,22 @@ p{
 
 .piepagina{
 	background-color: #ccc;
-	padding: 1.5% 0;
+	padding: 0.2% 0;
+  margin-top: 6%;
 }
 
 
 .gridpie{
 	margin: 0 10%;
+	h5{
+		color: grey;
+	}
+	h4{
+		color: grey;
+	}
 	p{
-		font-size: 9px;
+		color: grey;
+		font-size: 13px;
 		margin-top: 1%;
 		margin-bottom: 5%;
 	}
