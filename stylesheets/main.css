@@ -5687,4 +5687,20 @@ p {
 .overlay:hover {
   background-color: rgba(161, 179, 67, 0.5); }
 
+.piepagina {
+  background-color: #ccc;
+  padding: 1.5% 0; }
+
+.gridpie {
+  margin: 0 10%; }
+  .gridpie p {
+    font-size: 9px;
+    margin-top: 1%;
+    margin-bottom: 5%; }
+  .gridpie img {
+    width: 15%; }
+
+.text-center {
+  text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
