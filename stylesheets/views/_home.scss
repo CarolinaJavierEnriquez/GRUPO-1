@@ -62,7 +62,9 @@ h3{
   top: 0%;
   min-height: 100%; }
   .overlay:hover {
-    background-color: rgba(161, 179, 67, 0.5); }
+    background-color: rgba(13, 13, 13, 0.54); 
+    transition: 1s;
+  }
 
 .piepagina{
 	background-color: #ccc;
@@ -74,9 +76,6 @@ h3{
 .gridpie{
 	margin: 0 10%;
 	h5{
-		color: grey;
-	}
-	h4{
 		color: grey;
 	}
 	p{
